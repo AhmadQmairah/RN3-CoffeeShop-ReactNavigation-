@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { View } from "react-native";
-
 // NativeBase Components
 import { Container, Header } from "native-base";
 
