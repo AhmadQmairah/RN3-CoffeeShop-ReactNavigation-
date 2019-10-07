@@ -52,14 +52,14 @@ const Login = props => {
         <Button
           full
           success
-          onPress={() => props.navigation.navigate("ListScreen")}
+          onPress={() => props.navigation.navigate("Profile")}
         >
           <Text>Login</Text>
         </Button>
         <Button
           full
           warning
-          onPress={() => props.navigation.navigate("ListScreen")}
+          onPress={() => props.navigation.navigate("Profile")}
         >
           <Text>Register</Text>
         </Button>

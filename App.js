@@ -19,6 +19,6 @@ export default class App extends Component {
     if (this.state.loading) {
       return <Spinner color="white" />;
     }
-    return <AppContainer />;
+    return <HomePage />;
   }
 }
